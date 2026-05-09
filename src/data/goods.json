@@ -1,0 +1,96 @@
+{
+  "goods": [
+    {
+      "name": "spices",
+      "basePrice": 8,
+      "category": "commodity",
+      "unit": "sacks",
+      "maxPerShip": 30,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "silk",
+      "basePrice": 22,
+      "category": "luxury",
+      "unit": "bolts",
+      "maxPerShip": 15,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "iron",
+      "basePrice": 6,
+      "category": "commodity",
+      "unit": "ingots",
+      "maxPerShip": 40,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "gunpowder",
+      "basePrice": 45,
+      "category": "contraband",
+      "unit": "kegs",
+      "maxPerShip": 10,
+      "storageUnits": 1,
+      "requiresSecureStorage": true
+    },
+    {
+      "name": "timber",
+      "basePrice": 4,
+      "category": "commodity",
+      "unit": "logs",
+      "maxPerShip": 45,
+      "storageUnits": 3,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "grain",
+      "basePrice": 3,
+      "category": "commodity",
+      "unit": "bushels",
+      "maxPerShip": 85,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "ivory",
+      "basePrice": 34,
+      "category": "luxury",
+      "unit": "tusks",
+      "maxPerShip": 15,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "opium",
+      "basePrice": 75,
+      "category": "contraband",
+      "unit": "chests",
+      "maxPerShip": 5,
+      "storageUnits": 2,
+      "requiresSecureStorage": true
+    },
+    {
+      "name": "gems",
+      "basePrice": 115,
+      "category": "luxury",
+      "unit": "carats",
+      "maxPerShip": 15,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+      
+    },
+      {
+      "name": "rope",
+      "basePrice": 3,
+      "category": "commodity",
+      "unit": "coils",
+      "maxPerShip": 25,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+      
+    }
+  ]
+}
