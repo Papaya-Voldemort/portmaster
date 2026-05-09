@@ -1,0 +1,17 @@
+portmaster/
+├── src/
+│   ├── index.ts          ← game loop & REPL
+│   ├── engine/
+│   │   ├── state.ts      ← gold, inventory, day, rep
+│   │   ├── market.ts     ← pricing & supply/demand
+│   │   └── events.ts     ← random event engine
+│   ├── commands/
+│   │   ├── buy.ts
+│   │   ├── sell.ts
+│   │   └── ships.ts
+│   └── data/
+│       ├── goods.json    ← all tradeable goods
+│       ├── ships.json    ← ship templates
+│       └── events.json   ← random event pool
+├── package.json
+└── tsconfig.json
