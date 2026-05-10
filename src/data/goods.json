@@ -79,10 +79,9 @@
       "unit": "carats",
       "maxPerShip": 15,
       "storageUnits": 1,
-      "requiresSecureStorage": false
-      
+      "requiresSecureStorage": true
     },
-      {
+    {
       "name": "rope",
       "basePrice": 3,
       "category": "commodity",
@@ -90,7 +89,123 @@
       "maxPerShip": 25,
       "storageUnits": 2,
       "requiresSecureStorage": false
-      
+    },
+    {
+      "name": "coal",
+      "basePrice": 6,
+      "category": "commodity",
+      "unit": "tons",
+      "maxPerShip": 60,
+      "storageUnits": 3,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "perfume",
+      "basePrice": 18,
+      "category": "luxury",
+      "unit": "bottles",
+      "maxPerShip": 10,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "salt",
+      "basePrice": 9,
+      "category": "commodity",
+      "unit": "blocks",
+      "maxPerShip": 15,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "copper",
+      "basePrice": 7,
+      "category": "commodity",
+      "unit": "ingots",
+      "maxPerShip": 25,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "wool",
+      "basePrice": 8,
+      "category": "commodity",
+      "unit": "staples",
+      "maxPerShip": 25,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "stolen maps",
+      "basePrice": 36,
+      "category": "contraband",
+      "unit": "maps",
+      "maxPerShip": 3,
+      "storageUnits": 1,
+      "requiresSecureStorage": true
+    },
+    {
+      "name": "forged permits",
+      "basePrice": 24,
+      "category": "contraband",
+      "unit": "permits",
+      "maxPerShip": 4,
+      "storageUnits": 1,
+      "requiresSecureStorage": true
+    },
+    {
+      "name": "candles",
+      "basePrice": 6,
+      "category": "commodity",
+      "unit": "pieces",
+      "maxPerShip": 25,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "fish",
+      "basePrice": 6,
+      "category": "commodity",
+      "unit": "barrels",
+      "maxPerShip": 20,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "leather",
+      "basePrice": 14,
+      "category": "commodity",
+      "unit": "hides",
+      "maxPerShip": 10,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "dyes",
+      "basePrice": 19,
+      "category": "luxury",
+      "unit": "vials",
+      "maxPerShip": 10,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "fur",
+      "basePrice": 18,
+      "category": "commodity",
+      "unit": "furs",
+      "maxPerShip": 15,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
+    },
+    {
+      "name": "aged brandy",
+      "basePrice": 18,
+      "category": "commodity",
+      "unit": "bottles",
+      "maxPerShip": 15,
+      "storageUnits": 1,
+      "requiresSecureStorage": false
     }
   ]
 }

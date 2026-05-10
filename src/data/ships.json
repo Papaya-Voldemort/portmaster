@@ -1,0 +1,133 @@
+{
+  "ships": [
+    {
+      "name": "The Cormorant",
+      "description": "A weathered merchant vessel, low in the water. Been everywhere, asks no questions.",
+      "size": "medium",
+      "cargoSlots": [2, 4],
+      "possibleCargo": [
+        { "goodName": "spices",  "priceModifier": 1.0 },
+        { "goodName": "timber",  "priceModifier": 0.9 },
+        { "goodName": "rope",    "priceModifier": 1.1 },
+        { "goodName": "grain",   "priceModifier": 1.0 },
+        { "goodName": "opium",   "priceModifier": 1.9 }
+      ]
+    },
+    {
+      "name": "The Pale Mare",
+      "description": "Sleek eastern hull, flies no flag. Smells of perfume and money.",
+      "size": "small",
+      "cargoSlots": [1, 3],
+      "possibleCargo": [
+        { "goodName": "silk",    "priceModifier": 1.2 },
+        { "goodName": "gems",    "priceModifier": 1.3 },
+        { "goodName": "ivory",   "priceModifier": 1.2 },
+        { "goodName": "perfume", "priceModifier": 1.4 }
+      ]
+    },
+    {
+      "name": "Dutchman's Folly",
+      "description": "A hulking barge that somehow stays afloat. Crew smells worse than the cargo.",
+      "size": "large",
+      "cargoSlots": [3, 5],
+      "possibleCargo": [
+        { "goodName": "timber",  "priceModifier": 0.8 },
+        { "goodName": "grain",   "priceModifier": 0.9 },
+        { "goodName": "coal",    "priceModifier": 0.9 },
+        { "goodName": "iron",    "priceModifier": 0.9 },
+        { "goodName": "salt",    "priceModifier": 0.85 }
+      ]
+    },
+    {
+      "name": "The Iron Duchess",
+      "description": "A naval surplus frigate repurposed for trade. Still has the cannon mounts.",
+      "size": "large",
+      "cargoSlots": [2, 4],
+      "possibleCargo": [
+        { "goodName": "iron",       "priceModifier": 0.95 },
+        { "goodName": "copper",     "priceModifier": 1.0 },
+        { "goodName": "gunpowder",  "priceModifier": 1.5 },
+        { "goodName": "coal",       "priceModifier": 0.9 },
+        { "goodName": "wool",       "priceModifier": 1.0 }
+      ]
+    },
+    {
+      "name": "Salt & Thunder",
+      "description": "Fast and light. Crew are jumpy. Cargo changes every visit.",
+      "size": "small",
+      "cargoSlots": [1, 3],
+      "possibleCargo": [
+        { "goodName": "opium",          "priceModifier": 1.7 },
+        { "goodName": "gunpowder",      "priceModifier": 1.6 },
+        { "goodName": "stolen maps",    "priceModifier": 2.0 },
+        { "goodName": "forged permits", "priceModifier": 2.2 },
+        { "goodName": "spices",         "priceModifier": 1.1 }
+      ]
+    },
+    {
+      "name": "The Amber Road",
+      "description": "A grand merchant galleon from the northern guilds. Everything above board. Probably.",
+      "size": "large",
+      "cargoSlots": [3, 5],
+      "possibleCargo": [
+        { "goodName": "silk",    "priceModifier": 1.1 },
+        { "goodName": "spices",  "priceModifier": 1.0 },
+        { "goodName": "ivory",   "priceModifier": 1.15 },
+        { "goodName": "wool",    "priceModifier": 0.95 },
+        { "goodName": "dyes",    "priceModifier": 1.2 }
+      ]
+    },
+    {
+      "name": "The Saint's Mercy",
+      "description": "A church-flagged vessel. Tithe inspectors wave it through customs without a second look.",
+      "size": "medium",
+      "cargoSlots": [2, 3],
+      "possibleCargo": [
+        { "goodName": "candles",        "priceModifier": 1.0 },
+        { "goodName": "grain",          "priceModifier": 0.9 },
+        { "goodName": "opium",          "priceModifier": 1.8 },
+        { "goodName": "forged permits", "priceModifier": 2.0 },
+        { "goodName": "wool",           "priceModifier": 1.0 }
+      ]
+    },
+    {
+      "name": "The Mira Sól",
+      "description": "A southern schooner crewed entirely by one family. Third generation traders.",
+      "size": "medium",
+      "cargoSlots": [2, 4],
+      "possibleCargo": [
+        { "goodName": "spices",  "priceModifier": 0.95 },
+        { "goodName": "salt",    "priceModifier": 0.9 },
+        { "goodName": "fish",    "priceModifier": 0.85 },
+        { "goodName": "leather", "priceModifier": 1.0 },
+        { "goodName": "dyes",    "priceModifier": 1.1 }
+      ]
+    },
+    {
+      "name": "The Frozen Wake",
+      "description": "Comes from the far north. Crew speak little. Cargo is always cold to the touch.",
+      "size": "medium",
+      "cargoSlots": [2, 3],
+      "possibleCargo": [
+        { "goodName": "fur",     "priceModifier": 1.1 },
+        { "goodName": "timber",  "priceModifier": 0.85 },
+        { "goodName": "iron",    "priceModifier": 1.0 },
+        { "goodName": "coal",    "priceModifier": 0.8 },
+        { "goodName": "ivory",   "priceModifier": 1.2 }
+      ]
+    },
+    {
+      "name": "The Gilded Serpent",
+      "description": "An ostentatious pleasure barge turned trading vessel. The captain wears rings on every finger.",
+      "size": "small",
+      "cargoSlots": [1, 2],
+      "possibleCargo": [
+        { "goodName": "gems",    "priceModifier": 1.4 },
+        { "goodName": "perfume", "priceModifier": 1.5 },
+        { "goodName": "silk",    "priceModifier": 1.3 },
+        { "goodName": "aged brandy", "priceModifier": 1.6 },
+        { "goodName": "ivory",   "priceModifier": 1.35 }
+      ]
+    }
+  ]
+}
