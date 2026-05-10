@@ -9,6 +9,12 @@ export type Good = {
   demand: DemandLevel;
 };
 
+export type GoodState = {
+  name: string;
+  sellPrice: number;
+  demand : DemandLevel;
+}
+
 export type InventoryItem = {
   good: Good;
   quantity: number;
