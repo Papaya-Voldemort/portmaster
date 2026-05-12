@@ -35,7 +35,8 @@
         { "goodName": "grain",   "priceModifier": 0.9 },
         { "goodName": "coal",    "priceModifier": 0.9 },
         { "goodName": "iron",    "priceModifier": 0.9 },
-        { "goodName": "salt",    "priceModifier": 0.85 }
+        { "goodName": "salt",    "priceModifier": 0.85 },
+        { "goodName": "rice",    "priceModifier": 1 }
       ]
     },
     {

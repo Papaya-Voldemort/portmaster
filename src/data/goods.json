@@ -206,6 +206,15 @@
       "maxPerShip": 15,
       "storageUnits": 1,
       "requiresSecureStorage": false
+    },
+        {
+      "name": "rice",
+      "basePrice": 4,
+      "category": "commodity",
+      "unit": "sacks",
+      "maxPerShip": 35,
+      "storageUnits": 2,
+      "requiresSecureStorage": false
     }
   ]
 }

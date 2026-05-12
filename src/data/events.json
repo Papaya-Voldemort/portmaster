@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "id": "spice_shortage",
+      "title": "Spice Caravan Raided",
+      "message": "Bandits hit the northern spice road. Prices are spiking.",
+      "effect": { "goodName": "spices", "demandMultiplier": 2.2, "daysRemaining": 3 }
+    },
+    {
+      "id": "grain_famine",
+      "title": "Poor Harvest Reported",
+      "message": "Crop failures up north. Grain is worth its weight in gold right now.",
+      "effect": { "goodName": "grain", "demandMultiplier": 2.8, "daysRemaining": 4 }
+    },
+    {
+      "id": "iron_demand",
+      "title": "War Brewing in the East",
+      "message": "Rumours of conflict. Every blacksmith in the region is buying iron.",
+      "effect": { "goodName": "iron", "demandMultiplier": 2.0, "daysRemaining": 3 }
+    },
+    {
+      "id": "silk_glut",
+      "title": "Eastern Fleet Arrives",
+      "message": "Three silk galleons docked overnight. The market is flooded.",
+      "effect": { "goodName": "silk", "demandMultiplier": 0.5, "daysRemaining": 2 }
+    },
+    {
+      "id": "customs_crackdown",
+      "title": "Royal Inspectors in Port",
+      "message": "The crown has sent inspectors. Contraband catch chance doubled for 3 days.",
+      "effect": { "goodName": null, "demandMultiplier": 1.0, "daysRemaining": 3 },
+      "special": "contraband_risk_doubled"
+    },
+    {
+      "id": "storm",
+      "title": "Northern Storm Warning",
+      "message": "A storm is rolling in. No ships will dock for 2 days.",
+      "effect": null,
+      "special": "no_ships",
+      "duration": 2
+    },
+    {
+      "id": "bumper_coal",
+      "title": "Mine Surplus",
+      "message": "The eastern mines are overproducing. Coal is cheap right now.",
+      "effect": { "goodName": "coal", "demandMultiplier": 0.6, "daysRemaining": 2 }
+    },
+    {
+      "id": "gem_discovery",
+      "title": "New Vein Discovered",
+      "message": "A huge gem deposit found inland. Prices will drop soon.",
+      "effect": { "goodName": "gems", "demandMultiplier": 0.7, "daysRemaining": 3 }
+    },
+    {
+      "id": "pirates",
+      "title": "Pirates Spotted Offshore",
+      "message": "A pirate fleet is raiding ships. One random cargo is lost from your warehouse.",
+      "effect": null,
+      "special": "lose_random_cargo"
+    },
+    {
+      "id": "tavern_tip",
+      "title": "Merchant's Whisper",
+      "message": "A drunk trader tips you off. Ivory demand is about to surge.",
+      "effect": { "goodName": "ivory", "demandMultiplier": 1.9, "daysRemaining": 2 }
+    },
+    {
+      "id": "border_skirmishes",
+      "title": "Border Skirmishes",
+      "message": "Small teritores are fighting at the border. Iron prices rise.",
+      "effect": { "goodName": "iron", "demandMultiplier": 1.8, "daysRemaining": 5 }
+    },
+    {
+      "id": "market_panic",
+      "title": "Market Panic",
+      "message": "A roomer prompted mass market panic to buy rice!",
+      "effect": { "goodName": "rice", "demandMultiplier": 1.9, "daysRemaining": 3}
+    },
+    {
+      "id": "salt_shortage",
+      "title": "Salt Mines Flooded",
+      "message": "Floodwaters collapsed several salt tunnels. Preservation goods are surging in value.",
+      "effect": { "goodName": "salt", "demandMultiplier": 2.4, "daysRemaining": 4 }
+    }
+  ]
+}
