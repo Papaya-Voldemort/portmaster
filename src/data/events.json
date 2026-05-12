@@ -4,31 +4,51 @@
       "id": "spice_shortage",
       "title": "Spice Caravan Raided",
       "message": "Bandits hit the northern spice road. Prices are spiking.",
-      "effect": { "goodName": "spices", "demandMultiplier": 2.2, "daysRemaining": 3 }
+      "effect": {
+        "goodName": "spices",
+        "demandMultiplier": 2.2,
+        "daysRemaining": 3
+      }
     },
     {
       "id": "grain_famine",
       "title": "Poor Harvest Reported",
       "message": "Crop failures up north. Grain is worth its weight in gold right now.",
-      "effect": { "goodName": "grain", "demandMultiplier": 2.8, "daysRemaining": 4 }
+      "effect": {
+        "goodName": "grain",
+        "demandMultiplier": 2.8,
+        "daysRemaining": 4
+      }
     },
     {
       "id": "iron_demand",
       "title": "War Brewing in the East",
       "message": "Rumours of conflict. Every blacksmith in the region is buying iron.",
-      "effect": { "goodName": "iron", "demandMultiplier": 2.0, "daysRemaining": 3 }
+      "effect": {
+        "goodName": "iron",
+        "demandMultiplier": 2.0,
+        "daysRemaining": 3
+      }
     },
     {
       "id": "silk_glut",
       "title": "Eastern Fleet Arrives",
       "message": "Three silk galleons docked overnight. The market is flooded.",
-      "effect": { "goodName": "silk", "demandMultiplier": 0.5, "daysRemaining": 2 }
+      "effect": {
+        "goodName": "silk",
+        "demandMultiplier": 0.5,
+        "daysRemaining": 2
+      }
     },
     {
       "id": "customs_crackdown",
       "title": "Royal Inspectors in Port",
       "message": "The crown has sent inspectors. Contraband catch chance doubled for 3 days.",
-      "effect": { "goodName": null, "demandMultiplier": 1.0, "daysRemaining": 3 },
+      "effect": {
+        "goodName": null,
+        "demandMultiplier": 1.0,
+        "daysRemaining": 3
+      },
       "special": "contraband_risk_doubled"
     },
     {
@@ -43,13 +63,21 @@
       "id": "bumper_coal",
       "title": "Mine Surplus",
       "message": "The eastern mines are overproducing. Coal is cheap right now.",
-      "effect": { "goodName": "coal", "demandMultiplier": 0.6, "daysRemaining": 2 }
+      "effect": {
+        "goodName": "coal",
+        "demandMultiplier": 0.6,
+        "daysRemaining": 2
+      }
     },
     {
       "id": "gem_discovery",
       "title": "New Vein Discovered",
       "message": "A huge gem deposit found inland. Prices will drop soon.",
-      "effect": { "goodName": "gems", "demandMultiplier": 0.7, "daysRemaining": 3 }
+      "effect": {
+        "goodName": "gems",
+        "demandMultiplier": 0.7,
+        "daysRemaining": 3
+      }
     },
     {
       "id": "pirates",
@@ -62,25 +90,105 @@
       "id": "tavern_tip",
       "title": "Merchant's Whisper",
       "message": "A drunk trader tips you off. Ivory demand is about to surge.",
-      "effect": { "goodName": "ivory", "demandMultiplier": 1.9, "daysRemaining": 2 }
+      "effect": {
+        "goodName": "ivory",
+        "demandMultiplier": 1.9,
+        "daysRemaining": 2
+      }
     },
     {
       "id": "border_skirmishes",
       "title": "Border Skirmishes",
       "message": "Small teritores are fighting at the border. Iron prices rise.",
-      "effect": { "goodName": "iron", "demandMultiplier": 1.8, "daysRemaining": 5 }
+      "effect": {
+        "goodName": "iron",
+        "demandMultiplier": 1.8,
+        "daysRemaining": 5
+      }
     },
     {
       "id": "market_panic",
       "title": "Market Panic",
       "message": "A roomer prompted mass market panic to buy rice!",
-      "effect": { "goodName": "rice", "demandMultiplier": 1.9, "daysRemaining": 3}
+      "effect": {
+        "goodName": "rice",
+        "demandMultiplier": 1.9,
+        "daysRemaining": 3
+      }
     },
     {
       "id": "salt_shortage",
       "title": "Salt Mines Flooded",
       "message": "Floodwaters collapsed several salt tunnels. Preservation goods are surging in value.",
-      "effect": { "goodName": "salt", "demandMultiplier": 2.4, "daysRemaining": 4 }
+      "effect": {
+        "goodName": "salt",
+        "demandMultiplier": 2.4,
+        "daysRemaining": 4
+      }
+    },
+    {
+      "id": "fish_abundance",
+      "title": "Record Fishing Haul",
+      "message": "Fishermen returned with overflowing nets. Fish prices are crashing.",
+      "effect": {
+        "goodName": "fish",
+        "demandMultiplier": 0.5,
+        "daysRemaining": 2
+      }
+    },
+    {
+      "id": "lumber_boom",
+      "title": "Shipwright Contracts Issued",
+      "message": "The navy is commissioning new vessels. Lumber demand is soaring.",
+      "effect": {
+        "goodName": "lumber",
+        "demandMultiplier": 2.1,
+        "daysRemaining": 3
+      }
+    },
+    {
+      "id": "plague_scare",
+      "title": "Fever Spreads Through Port",
+      "message": "Citizens are panic-buying herbs and medicine.",
+      "effect": { "goodName": "herbs", "demandMultiplier": 2.6, "daysRemaining": 4 }
+    },
+    {
+      "id": "wine_festival",
+      "title": "Grand Harvest Festival",
+      "message": "Taverns and nobles are consuming wine faster than merchants can supply it.",
+      "effect": { "goodName": "wine", "demandMultiplier": 1.8, "daysRemaining": 3 }
+    },
+    {
+      "id": "dock_strike",
+      "title": "Dockworkers Refuse Labor",
+      "message": "Angry workers have halted unloading operations across the harbor.",
+      "effect": null,
+      "special": "ship_delays"
+    },
+    {
+      "id": "caravan_boom",
+      "title": "Southern Caravan Arrives",
+      "message": "Rare goods from the desert have flooded local markets.",
+      "effect": { "goodName": "spices", "demandMultiplier": 0.6, "daysRemaining": 3 }
+    },
+    {
+      "id": "forge_fire",
+      "title": "Great Forge Destroyed",
+      "message": "A major iron forge burned down overnight. Metal supplies are tightening rapidly.",
+      "effect": { "goodName": "iron", "demandMultiplier": 2.5, "daysRemaining": 4 }
+    },
+    {
+      "id": "counterfeit_scandal",
+      "title": "Counterfeit Coins Discovered",
+      "message": "Merchants are refusing questionable currency. Trade confidence is shaken.",
+      "effect": null,
+      "special": "market_tax_increase"
+    },
+    {
+      "id": "pearl_discovery",
+      "title": "Divers Find Pearl Beds",
+      "message": "Coastal divers uncovered rich oyster fields. Pearls are suddenly everywhere.",
+      "effect": { "goodName": "pearls", "demandMultiplier": 0.4, "daysRemaining": 3 }
     }
   ]
 }

@@ -215,6 +215,53 @@
       "maxPerShip": 35,
       "storageUnits": 2,
       "requiresSecureStorage": false
-    }
+    },
+    [
+  {
+    "name": "lumber",
+    "basePrice": 5,
+    "category": "commodity",
+    "unit": "planks",
+    "maxPerShip": 40,
+    "storageUnits": 3,
+    "requiresSecureStorage": false
+  },
+  {
+    "name": "herbs",
+    "basePrice": 12,
+    "category": "commodity",
+    "unit": "bundles",
+    "maxPerShip": 20,
+    "storageUnits": 1,
+    "requiresSecureStorage": false
+  },
+  {
+    "name": "wine",
+    "basePrice": 16,
+    "category": "luxury",
+    "unit": "barrels",
+    "maxPerShip": 15,
+    "storageUnits": 2,
+    "requiresSecureStorage": false
+  },
+  {
+    "name": "pearls",
+    "basePrice": 60,
+    "category": "luxury",
+    "unit": "strands",
+    "maxPerShip": 10,
+    "storageUnits": 1,
+    "requiresSecureStorage": true
+  },
+  {
+    "name": "medicine",
+    "basePrice": 28,
+    "category": "luxury",
+    "unit": "vials",
+    "maxPerShip": 10,
+    "storageUnits": 1,
+    "requiresSecureStorage": true
+  }
+]
   ]
 }
